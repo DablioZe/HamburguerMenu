@@ -1,6 +1,8 @@
 # Burguer Menu
 
-This repo is a basic design of a menu button.
+```
+"aqui vai um gif sobre o projeto."
+```
 
 ## Technologies
 
@@ -10,6 +12,10 @@ This repo is a basic design of a menu button.
 ## Why?
 
 I love web designs, and I do them because I mostly had a problem with that and I know a lot of people do too. So I made this repository for many people to learn and not have problems like I did.
+
+## About this repository
+
+This repository was made to teach how to make a hamburger menu button with just a few lines of code and Javascript is not used.
 
 ## About this project
 
