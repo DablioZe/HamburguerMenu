@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0098FF;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 10;
+}
+.line {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    transition: .5s ease-in-out;
+}
+.line:before, .line:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+.line:before {
+    top: -10px;
+}
+.line:after {
+    top: 10px;
+}
+input {
+    display: none;
+}
+input:checked ~ label .line {
+    transform: rotate(45deg);
+}
+input:checked ~ label .line:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+input:checked ~ label .line:after {
+    transform: rotate(90deg);
+    top: 0;
+}
