@@ -1,8 +1,6 @@
 # Burguer Menu
 
-```
-"aqui vai um gif sobre o projeto."
-```
+![GIF](./github/button.gif)
 
 ## Technologies
 
