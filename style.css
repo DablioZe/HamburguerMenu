@@ -9,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #0098FF;
+    height: 100vh;
 }
 
 .button {
@@ -19,7 +20,6 @@ body {
 }
 .button:hover {
     cursor: pointer;
-    box-shadow: 0 0 0 10;
 }
 .line {
     display: block;
