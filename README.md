@@ -4,10 +4,59 @@
   <img width="460" height="300" src="./github/button.gif">
 </p>
 
-## Used
+# Tutorial
 
- - HMTL5
- - CSS3
+_in html file_
+
+First, let's create an ` input ` element in the `chekbox` type with an id of `"hamburger-menu"`:
+
+```html
+<input id="hamburger-menu" type="checkbox">
+```
+
+Now, let's create a `label` for this input:
+
+```html
+<label for="hamburger-menu"></label>
+```
+
+Within this label, we will add a `div` element with the class `"button"`:
+
+```html
+<div class="button"></div>
+```
+
+Within this div, we will add a `span` element with the `line` class:
+
+```html
+<span class="line"></span>
+``` 
+
+The result of the HTML part will be:
+
+```html
+<input id="hamburger-menu" type="checkbox">
+<label for="hamburger-menu">
+    <div class="button">
+        <span class="line"></span>
+    </div>
+</label>
+```
+
+***
+
+_in CSS file_
+
+Let's change our `div` element with the `"button"` class. I set the size to 60 pixels in height and width, I also defined a 50% radius for the border (with the `border-radius`) and the white background.
+
+```CSS
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+```
 
 ## Why?
 
