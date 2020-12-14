@@ -2,7 +2,7 @@
 
 const express = require("express");
 const app = express();
-const http = require("http").createServer(app);
+const http = require("http").Server(app);
 
 app.use(express.static("./"));
 app.get("/", (req, res) => {
