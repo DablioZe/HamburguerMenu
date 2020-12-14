@@ -1,10 +1,12 @@
-# Burger Menu Button - CSS Animation
 
 <p align="center">
   <img width="460" height="300" src="./github/button.gif">
 </p>
 
-# Tutorial
+# Burger Menu Button - CSS Animation
+
+
+## Tutorial
 
 _in html file_
 
