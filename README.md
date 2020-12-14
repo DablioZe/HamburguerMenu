@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"> Burger Menu Button </h1>
+# Burger Menu Button - CSS Animation
 
 <p align="center">
   <img width="460" height="300" src="./github/button.gif">
