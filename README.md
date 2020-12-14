@@ -1,8 +1,10 @@
-# Burguer Menu
+<h1 style="text-align: center;"> Burger Menu Button </h1>
 
-![GIF](./github/button.gif)
+<p align="center">
+  <img width="460" height="300" src="./github/button.gif">
+</p>
 
-## Technologies
+## Used
 
  - HMTL5
  - CSS3
