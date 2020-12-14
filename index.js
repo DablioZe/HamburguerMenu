@@ -6,7 +6,7 @@ const http = require("http").Server(app);
 
 app.use(express.static("./"));
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "./index.html");
 });
 
 http.listen(3000)
