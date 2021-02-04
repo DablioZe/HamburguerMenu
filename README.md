@@ -1,7 +1,9 @@
 
-<p align="center">
-  <img width="460" height="300" src="./github/button.gif">
-</p>
+<a href="https://dablioze.github.io/HamburguerMenu/'>
+  <p align="center">
+    <img width="460" height="300" src="./github/button.gif">
+  </p>
+</a>
 
 # Burger Menu Button - CSS Animation
 
